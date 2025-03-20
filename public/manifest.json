@@ -1,0 +1,8 @@
+{
+  "short_name": "CV",
+  "name": "The new way to building",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#F3F3F5"
+}
