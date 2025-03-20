@@ -254,10 +254,10 @@ const App = () => {
           type: 'tag-list',
           title: 'Hobbies & Interests',
           icon: 'cubes',
-          items: ['Poetry', 'Tennis', 'Gym', 'Nutrition'],
+          items: ['Tennis', 'Gym', 'Self-Growth Books', 'Mindfulness'],
         },
       ]}
-      branding={true} // or false to hide it.
+      branding={true}
     />
   );
 };
