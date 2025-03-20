@@ -24,14 +24,13 @@ const App = () => {
         {
           type: 'text',
           title: 'Career Profile',
-          content:
-            'A driven and innovative professional constantly seeking new challenges in emerging technologies. I thrive on both mentoring colleagues and learning from diverse perspectives. My ideal work environment is one with an exceptional team committed to continuous improvement and growth. My career aspirations include deepening my expertise in both leadership and cutting-edge technologies, with the goal of driving my team and projects to new levels of success and innovation.',
           icon: 'usertie',
+          content:
+            'A highly motivated and innovative Senior Software Developer with a passion for emerging technologies and a proven track record of driving projects to success. Skilled in mentoring teams, optimizing workflows, and delivering high-quality applications. Thrives in collaborative environments that prioritize continuous improvement and technical excellence. Seeking to further enhance leadership capabilities and stay at the forefront of cutting-edge technologies to drive impactful innovation.',
         },
         {
           type: 'experiences-list',
           title: 'Experiences',
-          description: '',
           icon: 'archive',
           items: [
             {
@@ -48,20 +47,18 @@ const App = () => {
                 'SwiftUI',
               ],
               description:
-                `
-                LAClippers
-                Senior iOS Developer:
-                * Spearheading the development of new features for the LAClippers staff app, focusing on innovative ticketing solutions for concerts and games in the brand-new LA stadium.
-                * Leveraging SwiftUI to create modern, responsive user interfaces that enhance the ticket purchasing experience for both staff and end-users.
-                * Implementing complex business logic using Combine framework, ensuring efficient and reactive data flow throughout the application.
-                * Architecting and integrating robust seat selection and reservation systems, optimizing for high-traffic scenarios during popular events.
-                * Utilizing Swift's latest features to write clean, maintainable, and performant code.
-                Collaborating with backend teams to design and consume RESTful APIs, ensuring seamless data synchronization.
-                * Implementing state-of-the-art security measures to protect sensitive user and payment information.
-                * Optimizing app performance and reducing load times to enhance user satisfaction and increase conversion rates.
-                * Conducting code reviews and mentoring junior developers to maintain high code quality standards.
-                * Participating in agile development processes, including sprint planning, daily stand-ups, and retrospectives.
-                * Continuously researching and adopting best practices in iOS development to keep the app at the cutting edge of technology.`,
+                `LAClippers
+      Senior iOS Developer:
+      • Leading the development of innovative features for the LAClippers staff app, focusing on ticketing solutions for concerts and sports events in a cutting-edge stadium.
+      • Utilizing SwiftUI to build modern, dynamic user interfaces, enhancing the ticketing experience for both staff and customers.
+      • Implementing complex business logic with Combine framework to ensure efficient, responsive data management.
+      • Architecting and integrating seat selection and reservation systems optimized for high-traffic scenarios.
+      • Collaborating with backend teams to design and consume RESTful APIs for seamless data synchronization.
+      • Ensuring high-security standards to protect user and payment information.
+      • Conducting rigorous performance optimizations to reduce load times and enhance user satisfaction.
+      • Providing mentorship and conducting code reviews to maintain high development standards.
+      • Actively participating in agile ceremonies, including sprint planning, daily stand-ups, and retrospectives.
+      • Staying up-to-date with industry trends and best practices to drive continuous innovation in iOS development.`,
             },
             {
               title: 'iOS Developer',
@@ -76,12 +73,15 @@ const App = () => {
                 'Graphql',
                 'Combine',
                 'UIKit',
+                'CoreData',
               ],
               description:
-                `Walmart (Same client as the previous contractor) * Developing new features for Walmart, using UIKit and Combine, and supporting and correcting current ones on news sector applications using MVVM.          * Giving support to other teams, and approving the PRs after code review. 
-                *Creation of UITests and UnitTests to the features already released in production. 
-                * Co-lead the development team managing the
-                distribution of tasks ensuring delivery to the client complying with quality standards and best practices.`,
+                `Walmart (Same client as the previous contractor)
+      • Developed and maintained new features for Walmart's iOS applications using UIKit and Combine, ensuring smooth performance and scalability.
+      • Provided ongoing support for existing applications, debugging and improving functionality.
+      • Conducted rigorous code reviews, ensuring high-quality standards and best practices.
+      • Designed and implemented UnitTests and UITests to improve application reliability and catch potential issues before production releases.
+      • Co-led the development team, managing task distribution and ensuring timely and high-quality deliverables.`,
             },
             {
               title: 'iOS Developer',
@@ -98,32 +98,37 @@ const App = () => {
                 'UIKit',
               ],
               description:
-                '* Developing new features for Walmart, using UIKit and Combine, and supporting and correcting current ones on news sector applications using MVVM. \n * Giving support to other teams, and approving the PRs after code review.\n *Creation of UITests and UnitTests to the features already released in production. * Co-lead the development team managing the distribution of tasks ensuring delivery to the client complying with quality standards and best practices.',
+                `• Developed new features for Walmart, focusing on UIKit and Combine to improve the user experience.
+      • Provided support and maintenance for existing applications, ensuring continued stability and performance.
+      • Led peer code reviews and approved pull requests to ensure adherence to best practices.
+      • Designed and implemented UnitTests and UITests to strengthen application reliability.
+      • Co-managed development tasks and collaborated with cross-functional teams to meet project deadlines and deliver high-quality software.`,
             },
             {
               title: 'iOS Developer',
               company: 'Likemetric',
               companyWebSite: 'https://www.linkedin.com/company/unopuntoseis',
               datesBetween: '2021/03 - 2022/06',
-              description:
-                "As the lead developer, he was responsible for optimizing the code and flow of his team's applications, analyzing the market using methodologies that generate permanent value, such as A/B testing with Firebase and logging events with Splunk. Additionally, he led the creation of the architecture and guidelines that served as the foundation for the team's work.\n *As an iOS Developer for the app, he actively participated in the creation of Continuous Integration (CI) pipelines into Digital Ocean",
               descriptionTags: [
                 'Bitbucket',
                 'SwiftUI',
                 'Jira',
-                'digital ocean',
+                'Digital Ocean',
                 'Docker',
                 'Splunk',
                 'VIPER',
               ],
+              description:
+                `• Led application architecture and code optimization efforts to enhance overall performance.
+      • Conducted in-depth market analysis using A/B testing with Firebase and logging events with Splunk to drive data-driven decisions.
+      • Developed and maintained Continuous Integration (CI) pipelines for seamless deployment using Digital Ocean.
+      • Established guidelines and best practices to ensure consistency across development teams.`,
             },
             {
               title: 'Chief Executive Officer',
               company: 'Pefpi',
               companyWebSite: 'https://www.linkedin.com/company/pefpi',
               datesBetween: '2020/09 - 2021/03',
-              description:
-                '* Responsible for prioritizing requirements and distributing them among the team, planning development tickets, assigning priorities to a manager, and bridging the gap between business and technology. \n* Built and led a high-performing technology team, involving recruiting, mentoring, and developing team members. \n* Successfully raised $250k USD from Angel Investors, including ObrasDé and Arconsa, through fundraising efforts.',
               descriptionTags: [
                 'Swift',
                 'React',
@@ -137,51 +142,16 @@ const App = () => {
                 'Express',
                 'Digital Ocean',
               ],
-            },
-            {
-              title: 'iOS Developer',
-              company: 'Rappi',
-              companyWebSite: 'https://www.rappi.com',
-              datesBetween: '2016/07 - 2020/09',
               description:
-                '* Actively participated in designing and architecting iOS features for the app, including user interfaces, code distribution, and creating Continuous Integration (CI) pipelines with Bitrise. \n* Prioritized requirements and distributed them among the team, planning development tickets and assigning priorities and story points. \n * Provided support as an iOS Developer Lead for the Restaurants Module, reviewing and approving contributions, ensuring overall functionality, stability, and measuring success through various metrics and A/B testing.',
-              descriptionTags: [
-                'Objective-C',
-                'Cocoapods',
-                'Github',
-                'Google APIs',
-                'Facebook SDK',
-                'Swift',
-                'Firebase',
-                'CoreData',
-                'SQLite',
-                'Bitrise',
-              ],
-            },
-            {
-              title: 'iOS Developer',
-              company: 'Gravility.Inc',
-              description:
-                '* Assisted senior team members in resolving complex features using UIKit, including auto layout and Alamofire for web service connections. \n * Managed the build process for TestFlight and released versions on the App Store.',
-              companyWebSite: 'https://www.grability.com/',
-              datesBetween: '2016/03 - 2016/07',
-              descriptionTags: ['Objective-C', 'Swift'],
-            },
-            {
-              title: 'iOS Developer',
-              company: 'Blokwise',
-              description:
-                '* Developed and maintained the iOS versions of BrainFreeze and FormulaCartoon, focusing on optimal performance, stability, and user experience. \n * Created iOS apps for TNT, Haceb, and ColombiaModa, while supporting senior team members in resolving complex issues.',
-              companyWebSite: 'http://www.bwstudios.co/',
-              datesBetween: '2014/07 - 2016/03',
-              descriptionTags: ['Objective-C', 'Swift', 'C#', 'Unity'],
+                `• Managed and prioritized development tasks, ensuring seamless collaboration between business and technology teams.
+      • Built and led a high-performing development team, including recruiting, mentoring, and technical oversight.
+      • Successfully secured $250K USD from Angel Investors, including ObrasDé and Arconsa, to drive company growth.`,
             },
           ],
         },
         {
           type: 'projects-list',
           title: 'Projects',
-          description: '',
           icon: 'tasks',
           groups: [
             {
@@ -191,7 +161,7 @@ const App = () => {
                   title: 'iOS App',
                   projectUrl:
                     'https://apps.apple.com/co/app/rappi-s%C3%BAper-y-comida-online/id984044296',
-                  description: 'Delivery',
+                  description: 'On-demand delivery platform for groceries, food, and essentials.',
                 },
               ],
             },
@@ -202,7 +172,7 @@ const App = () => {
                   title: 'iOS App',
                   projectUrl:
                     'https://apps.apple.com/co/app/lider/id1418000624',
-                  description: 'Delivery',
+                  description: 'Retail shopping application for Walmart customers.',
                 },
               ],
             },
