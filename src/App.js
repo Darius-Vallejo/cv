@@ -147,6 +147,44 @@ const App = () => {
       • Built and led a high-performing development team, including recruiting, mentoring, and technical oversight.
       • Successfully secured $250K USD from Angel Investors, including ObrasDé and Arconsa, to drive company growth.`,
             },
+            {
+              title: 'iOS Developer',
+              company: 'Rappi',
+              companyWebSite: 'https://www.rappi.com',
+              datesBetween: '2016/07 - 2020/09',
+              description:
+                'Actively participated in designing and architecting iOS features for the app, including user interfaces, code distribution, and the creation of Continuous Integration (CI) pipelines with Bitrise. •	Prioritized requirements and managed task distribution within the team, planning development tickets, assigning priorities, and estimating story points. •	Served as the iOS Developer Lead for the Restaurants Module, reviewing and approving contributions, ensuring functionality and stability, and measuring success through key metrics and A/B testing.',
+              descriptionTags: [
+                'Objective-C',
+                'Cocoapods',
+                'Github',
+                'Google APIs',
+                'Facebook SDK',
+                'Swift',
+                'Firebase',
+                'CoreData',
+                'SQLite',
+                'Bitrise',
+              ],
+            },
+            {
+              title: 'iOS Developer',
+              company: 'Gravility.Inc',
+              description:
+                'Assisted senior team members in implementing complex features using UIKit, including Auto Layout and Alamofire for web service integration. •	Managed the build process for TestFlight and handled App Store releases.',
+              companyWebSite: 'https://www.grability.com/',
+              datesBetween: '2016/03 - 2016/07',
+              descriptionTags: ['Objective-C', 'Swift'],
+            },
+            {
+              title: 'iOS Developer',
+              company: 'Blokwise',
+              description:
+                '	•	Developed and maintained the iOS versions of BrainFreeze and FormulaCartoon, ensuring optimal performance, stability, and user experience. •	Built iOS apps for TNT, Haceb, and ColombiaModa, while assisting senior team members in resolving complex issues.',
+              companyWebSite: 'http://www.bwstudios.co/',
+              datesBetween: '2014/07 - 2016/03',
+              descriptionTags: ['Objective-C', 'Swift', 'C#', 'Unity'],
+            },
           ],
         },
         {
@@ -223,11 +261,11 @@ const App = () => {
           items: [
             {
               authority: 'Spanish',
-              authorityMeta: 'Professional',
+              authorityMeta: 'Native',
             },
             {
               authority: 'English',
-              authorityMeta: 'Middle',
+              authorityMeta: 'B2+',
             },
           ],
         },
