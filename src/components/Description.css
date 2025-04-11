@@ -1,0 +1,23 @@
+.description-container {
+  white-space: pre-line;
+  line-height: 1.8;
+  margin: 10px 0;
+  font-family: inherit;
+  color: inherit;
+  padding: 0 10px;
+}
+
+.description-container br {
+  margin-bottom: 8px;
+  display: block;
+  content: "";
+}
+
+.description-container strong {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.description-container div {
+  margin-bottom: 4px;
+} 

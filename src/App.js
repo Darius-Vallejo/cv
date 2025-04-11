@@ -1,9 +1,24 @@
 import React from 'react';
-import CV from 'react-cv';
+import CustomCV from './components/CustomCV';
+import Description from './components/Description';
+
+const clippersDescription = `Senior iOS Developer at Globant for the Clippers project:
+• Leading the development of innovative features for the LA Clippers staff app, focusing on ticketing solutions for concerts and sports events in a cutting-edge stadium.
+• Utilizing SwiftUI to build modern, dynamic user interfaces, enhancing the ticketing experience for both staff and customers.
+• Implementing complex business logic with Combine framework to ensure efficient, responsive data management.
+• Architecting and integrating seat selection and reservation systems optimized for high-traffic scenarios.
+• Collaborating with backend teams to design and consume RESTful APIs for seamless data synchronization.
+• Implementing Crashlytics for real-time crash monitoring and ensuring a stable user experience.
+• Ensuring high-security standards to protect user and payment information.
+• Conducting rigorous performance optimizations to reduce load times and enhance user satisfaction.
+• Providing mentorship and conducting code reviews to maintain high development standards.
+• Actively participating in agile ceremonies, including sprint planning, daily stand-ups, and retrospectives.
+• Staying up-to-date with industry trends and best practices to drive continuous innovation in iOS development.
+• Implementing comprehensive XCTest suites and Crashlytics integration to ensure code quality, reliability, and real-time crash monitoring.`;
 
 const App = () => {
   return (
-    <CV
+    <CustomCV
       personalData={{
         name: 'Dario Fernando Vallejo Posada',
         title: 'Senior Software Developer',
@@ -46,17 +61,7 @@ const App = () => {
                 'Combine',
                 'SwiftUI',
               ],
-              description: "Senior iOS Developer at Globant for the Clippers project:\n\n" +
-                "• Leading the development of innovative features for the LA Clippers staff app, focusing on ticketing solutions for concerts and sports events in a cutting-edge stadium.\n\n" +
-                "• Utilizing SwiftUI to build modern, dynamic user interfaces, enhancing the ticketing experience for both staff and customers.\n\n" +
-                "• Implementing complex business logic with Combine framework to ensure efficient, responsive data management.\n\n" +
-                "• Architecting and integrating seat selection and reservation systems optimized for high-traffic scenarios.\n\n" +
-                "• Collaborating with backend teams to design and consume RESTful APIs for seamless data synchronization.\n\n" +
-                "• Ensuring high-security standards to protect user and payment information.\n\n" +
-                "• Conducting rigorous performance optimizations to reduce load times and enhance user satisfaction.\n\n" +
-                "• Providing mentorship and conducting code reviews to maintain high development standards.\n\n" +
-                "• Actively participating in agile ceremonies, including sprint planning, daily stand-ups, and retrospectives.\n\n" +
-                "• Staying up-to-date with industry trends and best practices to drive continuous innovation in iOS development."
+              description: clippersDescription,
             },
             {
               title: 'Senior iOS Developer',
@@ -75,11 +80,14 @@ const App = () => {
               ],
               description:
                 `Senior iOS Developer at Globant for the Walmart project:
-      • Developed and maintained new features for Walmart's iOS applications using UIKit and Combine, ensuring smooth performance and scalability.
-      • Provided ongoing support for existing applications, debugging and improving functionality.
-      • Conducted rigorous code reviews, ensuring high-quality standards and best practices.
-      • Designed and implemented UnitTests and UITests to improve application reliability and catch potential issues before production releases.
-      • Co-led the development team, managing task distribution and ensuring timely and high-quality deliverables.`,
+• Developed and maintained new features for Walmart's iOS applications using UIKit and Combine, ensuring smooth performance and scalability.
+• Implemented SwiftUI for some simpler UI components, streamlining development and enhancing maintainability.
+• Provided ongoing support for existing applications, debugging and improving functionality.
+• Conducted rigorous code reviews, ensuring high-quality standards and best practices.
+• Utilized Crashlytics (alongside Splunk and Firebase) to monitor application crashes in real time, ensuring app stability for millions of users.
+• Designed and implemented UnitTests and UITests using XCTest to improve application reliability and catch potential issues before production releases.
+• Co-led the development team, managing task distribution and ensuring timely and high-quality deliverables.
+• Integrated Crashlytics with XCTest to ensure comprehensive error tracking and testing coverage.`,
             },
             {
               title: 'Senior iOS Developer',
@@ -96,11 +104,13 @@ const App = () => {
                 'UIKit',
               ],
               description:
-                `Senior iOS Developer at Zemoga for the Walmart project: • Developed new features for Walmart, focusing on UIKit and Combine to improve the user experience.
-      • Provided support and maintenance for existing applications, ensuring continued stability and performance.
-      • Led peer code reviews and approved pull requests to ensure adherence to best practices.
-      • Designed and implemented UnitTests and UITests to strengthen application reliability.
-      • Co-managed development tasks and collaborated with cross-functional teams to meet project deadlines and deliver high-quality software.`,
+                `Senior iOS Developer at Zemoga for the Walmart project:
+• Developed new features for Walmart, focusing on UIKit and Combine to improve the user experience.
+• Provided support and maintenance for existing applications, ensuring continued stability and performance.
+• Led peer code reviews and approved pull requests to ensure adherence to best practices.
+• Designed and implemented UnitTests and UITests using XCTest to strengthen application reliability.
+• Co-managed development tasks and collaborated with cross-functional teams to meet project deadlines and deliver high-quality software.
+• Implemented Crashlytics alongside XCTest to maintain high standards of code quality and real-time error monitoring.`,
             },
             {
               title: 'Senior iOS Developer',
@@ -115,12 +125,14 @@ const App = () => {
                 'Docker',
                 'Splunk',
                 'VIPER',
+                'RestApi',
               ],
               description:
-                `• Led application architecture and code optimization efforts to enhance overall performance.
-      • Conducted in-depth market analysis using A/B testing with Firebase and logging events with Splunk to drive data-driven decisions.
-      • Developed and maintained Continuous Integration (CI) pipelines for seamless deployment using Digital Ocean.
-      • Established guidelines and best practices to ensure consistency across development teams.`,
+                `Led application architecture (TCA) and code optimization efforts to enhance overall performance.
+• Conducted in-depth market analysis using A/B testing with Firebase and logging events with Splunk to drive data-driven decisions.
+• Developed and maintained Continuous Integration (CI) pipelines for seamless deployment using Digital Ocean.
+• Established guidelines and best practices to ensure consistency across development teams.
+• Implemented XCTest and Crashlytics for automated testing and real-time error monitoring to maintain high code quality standards.`,
             },
             {
               title: 'Chief Executive Officer',
@@ -139,11 +151,13 @@ const App = () => {
                 'NodeJS',
                 'Express',
                 'Digital Ocean',
+                'RestApi',
               ],
               description:
-                `• Managed and prioritized development tasks, ensuring seamless collaboration between business and technology teams.
-      • Built and led a high-performing development team, including recruiting, mentoring, and technical oversight.
-      • Successfully secured $250K USD from Angel Investors, including ObrasDé and Arconsa, to drive company growth.`,
+                `Managed and prioritized development tasks, ensuring seamless collaboration between business and technology teams.
+• Built and led a high-performing development team, including recruiting, mentoring, and technical oversight.
+• Created and led features that used Sequelize with Postgres on the back end, enabling efficient querying and scalable data models.
+• Successfully secured $250K USD from Angel Investors, including ObrasDé and Arconsa, to drive company growth.`,
             },
             {
               title: 'iOS Senior Developer',
@@ -151,7 +165,11 @@ const App = () => {
               companyWebSite: 'https://www.rappi.com',
               datesBetween: '2016/07 - 2020/09',
               description:
-                `Joined Rappi as employee number 12 during its startup phase and contributed to its evolution into one of Latin America's top unicorn companies. Played a key role in the development of Rappi's iOS application, which now serves over 10 million users across multiple countries. Led iOS development for the Restaurants Module in Rappi's flagship delivery app. Actively participated in designing and architecting iOS features for the app, including user interfaces, code distribution, and the creation of Continuous Integration (CI) pipelines with Bitrise. •	Prioritized requirements and managed task distribution within the team, planning development tickets, assigning priorities, and estimating story points. •	Served as the iOS Developer Lead for the Restaurants Module, reviewing and approving contributions, ensuring functionality and stability, and measuring success through key metrics and A/B testing.`,
+                `Joined Rappi as employee number 12 during its startup phase and contributed to its evolution into one of Latin America's top unicorn companies. Played a key role in the development of Rappi's iOS application, which now serves over 10 million users across multiple countries. Led iOS development for the Restaurants Module in Rappi's flagship delivery app. Actively participated in designing and architecting iOS features for the app, including user interfaces, code distribution, and the creation of Continuous Integration (CI) pipelines with Bitrise.
+• Prioritized requirements and managed task distribution within the team, planning development tickets, assigning priorities, and estimating story points.
+• Served as the iOS Developer Lead for the Restaurants Module, reviewing and approving contributions, ensuring functionality and stability, and measuring success through key metrics and A/B testing.
+• Implemented comprehensive XCTest suites and Crashlytics integration to ensure robust testing coverage, real-time error monitoring, and maintain high code quality standards.
+• Optimized data loading performance by implementing SQLite to handle compressed product databases, significantly improving app responsiveness and offline capabilities.`,
               descriptionTags: [
                 'Objective-C',
                 'Cocoapods',
@@ -163,6 +181,7 @@ const App = () => {
                 'CoreData',
                 'SQLite',
                 'Bitrise',
+                'RestApi',
               ],
             },
             {
