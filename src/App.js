@@ -34,8 +34,8 @@ const App = () => {
           icon: 'archive',
           items: [
             {
-              title: 'iOS Developer',
-              company: 'Globant',
+              title: 'Senior iOS Developer',
+              company: 'Los Angels Clippers',
               companyWebSite: 'https://www.globant.com/',
               datesBetween: '2024/01 - Present',
               descriptionTags: [
@@ -46,23 +46,21 @@ const App = () => {
                 'Combine',
                 'SwiftUI',
               ],
-              description:
-                `LAClippers
-      Senior iOS Developer:
-      • Leading the development of innovative features for the LAClippers staff app, focusing on ticketing solutions for concerts and sports events in a cutting-edge stadium.
-      • Utilizing SwiftUI to build modern, dynamic user interfaces, enhancing the ticketing experience for both staff and customers.
-      • Implementing complex business logic with Combine framework to ensure efficient, responsive data management.
-      • Architecting and integrating seat selection and reservation systems optimized for high-traffic scenarios.
-      • Collaborating with backend teams to design and consume RESTful APIs for seamless data synchronization.
-      • Ensuring high-security standards to protect user and payment information.
-      • Conducting rigorous performance optimizations to reduce load times and enhance user satisfaction.
-      • Providing mentorship and conducting code reviews to maintain high development standards.
-      • Actively participating in agile ceremonies, including sprint planning, daily stand-ups, and retrospectives.
-      • Staying up-to-date with industry trends and best practices to drive continuous innovation in iOS development.`,
+              description: "Senior iOS Developer at Globant for the Clippers project:\n\n" +
+                "• Leading the development of innovative features for the LA Clippers staff app, focusing on ticketing solutions for concerts and sports events in a cutting-edge stadium.\n\n" +
+                "• Utilizing SwiftUI to build modern, dynamic user interfaces, enhancing the ticketing experience for both staff and customers.\n\n" +
+                "• Implementing complex business logic with Combine framework to ensure efficient, responsive data management.\n\n" +
+                "• Architecting and integrating seat selection and reservation systems optimized for high-traffic scenarios.\n\n" +
+                "• Collaborating with backend teams to design and consume RESTful APIs for seamless data synchronization.\n\n" +
+                "• Ensuring high-security standards to protect user and payment information.\n\n" +
+                "• Conducting rigorous performance optimizations to reduce load times and enhance user satisfaction.\n\n" +
+                "• Providing mentorship and conducting code reviews to maintain high development standards.\n\n" +
+                "• Actively participating in agile ceremonies, including sprint planning, daily stand-ups, and retrospectives.\n\n" +
+                "• Staying up-to-date with industry trends and best practices to drive continuous innovation in iOS development."
             },
             {
-              title: 'iOS Developer',
-              company: 'Globant',
+              title: 'Senior iOS Developer',
+              company: 'Walmart',
               companyWebSite: 'https://www.globant.com/',
               datesBetween: '2023/06 - 2024/01',
               descriptionTags: [
@@ -76,7 +74,7 @@ const App = () => {
                 'CoreData',
               ],
               description:
-                `Walmart (Same client as the previous contractor)
+                `Senior iOS Developer at Globant for the Walmart project:
       • Developed and maintained new features for Walmart's iOS applications using UIKit and Combine, ensuring smooth performance and scalability.
       • Provided ongoing support for existing applications, debugging and improving functionality.
       • Conducted rigorous code reviews, ensuring high-quality standards and best practices.
@@ -84,8 +82,8 @@ const App = () => {
       • Co-led the development team, managing task distribution and ensuring timely and high-quality deliverables.`,
             },
             {
-              title: 'iOS Developer',
-              company: 'Zemoga',
+              title: 'Senior iOS Developer',
+              company: 'Walmart',
               companyWebSite: 'https://www.zemoga.com/',
               datesBetween: '2022/06 - 2023/04',
               descriptionTags: [
@@ -98,17 +96,17 @@ const App = () => {
                 'UIKit',
               ],
               description:
-                `• Developed new features for Walmart, focusing on UIKit and Combine to improve the user experience.
+                `Senior iOS Developer at Zemoga for the Walmart project: • Developed new features for Walmart, focusing on UIKit and Combine to improve the user experience.
       • Provided support and maintenance for existing applications, ensuring continued stability and performance.
       • Led peer code reviews and approved pull requests to ensure adherence to best practices.
       • Designed and implemented UnitTests and UITests to strengthen application reliability.
       • Co-managed development tasks and collaborated with cross-functional teams to meet project deadlines and deliver high-quality software.`,
             },
             {
-              title: 'iOS Developer',
+              title: 'Senior iOS Developer',
               company: 'Likemetric',
               companyWebSite: 'https://www.linkedin.com/company/unopuntoseis',
-              datesBetween: '2021/03 - 2022/06',
+              datesBetween: '2021/11 - 2022/06',
               descriptionTags: [
                 'Bitbucket',
                 'SwiftUI',
@@ -128,7 +126,7 @@ const App = () => {
               title: 'Chief Executive Officer',
               company: 'Pefpi',
               companyWebSite: 'https://www.linkedin.com/company/pefpi',
-              datesBetween: '2020/09 - 2021/03',
+              datesBetween: '2020/09 - 2021/11',
               descriptionTags: [
                 'Swift',
                 'React',
@@ -148,12 +146,12 @@ const App = () => {
       • Successfully secured $250K USD from Angel Investors, including ObrasDé and Arconsa, to drive company growth.`,
             },
             {
-              title: 'iOS Developer',
+              title: 'iOS Senior Developer',
               company: 'Rappi',
               companyWebSite: 'https://www.rappi.com',
               datesBetween: '2016/07 - 2020/09',
               description:
-                'Actively participated in designing and architecting iOS features for the app, including user interfaces, code distribution, and the creation of Continuous Integration (CI) pipelines with Bitrise. •	Prioritized requirements and managed task distribution within the team, planning development tickets, assigning priorities, and estimating story points. •	Served as the iOS Developer Lead for the Restaurants Module, reviewing and approving contributions, ensuring functionality and stability, and measuring success through key metrics and A/B testing.',
+                `Joined Rappi as employee number 12 during its startup phase and contributed to its evolution into one of Latin America's top unicorn companies. Played a key role in the development of Rappi's iOS application, which now serves over 10 million users across multiple countries. Led iOS development for the Restaurants Module in Rappi's flagship delivery app. Actively participated in designing and architecting iOS features for the app, including user interfaces, code distribution, and the creation of Continuous Integration (CI) pipelines with Bitrise. •	Prioritized requirements and managed task distribution within the team, planning development tickets, assigning priorities, and estimating story points. •	Served as the iOS Developer Lead for the Restaurants Module, reviewing and approving contributions, ensuring functionality and stability, and measuring success through key metrics and A/B testing.`,
               descriptionTags: [
                 'Objective-C',
                 'Cocoapods',
@@ -168,7 +166,7 @@ const App = () => {
               ],
             },
             {
-              title: 'iOS Developer',
+              title: 'iOS Mid Developer',
               company: 'Gravility.Inc',
               description:
                 'Assisted senior team members in implementing complex features using UIKit, including Auto Layout and Alamofire for web service integration. •	Managed the build process for TestFlight and handled App Store releases.',
@@ -177,7 +175,7 @@ const App = () => {
               descriptionTags: ['Objective-C', 'Swift'],
             },
             {
-              title: 'iOS Developer',
+              title: 'iOS Junior Developer',
               company: 'Blokwise',
               description:
                 '	•	Developed and maintained the iOS versions of BrainFreeze and FormulaCartoon, ensuring optimal performance, stability, and user experience. •	Built iOS apps for TNT, Haceb, and ColombiaModa, while assisting senior team members in resolving complex issues.',
