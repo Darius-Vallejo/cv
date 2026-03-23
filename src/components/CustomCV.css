@@ -1,0 +1,16 @@
+.company-with-contractor {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-name {
+  font-weight: inherit;
+}
+
+.contractor-name {
+  font-size: 0.9em;
+  color: #666;
+  font-style: italic;
+  margin-top: 2px;
+}
+
