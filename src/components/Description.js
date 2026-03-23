@@ -2,12 +2,15 @@ import React from 'react';
 import './Description.css';
 
 const technicalKeywords = [
-  'SwiftUI', 'Combine', 'RESTful APIs', 'Crashlytics', 'UIKit', 'CoreData',
-  'GraphQL', 'Firebase', 'Splunk', 'Bitrise', 'Docker', 'AWS', 'NodeJS',
-  'Express', 'Digital Ocean', 'Objective-C', 'Swift', 'C#', 'Unity',
-  'UnitTests', 'UITests', 'TCA', 'A/B testing', 'CI', 'Continuous Integration',
-  'Sequelize', 'Postgres', 'iOS', 'Bitrise', 'A/B testing', 'XCTest',
-  'SQLite'
+  'Swift Package Manager', 'RESTful APIs', 'Continuous Integration', 'A/B testing',
+  'Apollo Client', 'STAMP Verify', 'Digital Ocean', 'Objective-C', 'Async/Await',
+  'SwiftUI', 'Combine', 'Crashlytics', 'UIKit', 'CoreData', 'GraphQL', 'Firebase',
+  'Splunk', 'Bitrise', 'Docker', 'AWS SQS', 'AWS SNS', 'AWS', 'NodeJS', 'Express',
+  'Swift', 'C#', 'Unity', 'UnitTests', 'UITests', 'TCA', 'CI', 'Sequelize',
+  'PostgreSQL', 'Postgres', 'iOS', 'XCTest', 'SQLite', 'Python', 'gRPC', 'Okta',
+  'Redis', 'AsyncAwait', 'SPM', 'VIPER', 'MVVM', 'Apollo', 'Realm', 'WebSockets',
+  'Amplitude', 'FullStory', 'HubSpot', 'OTP', 'MFA', 'Alamofire', 'TestFlight',
+  'Microservices', 'REST'
 ];
 
 const Description = ({ children }) => {

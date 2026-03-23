@@ -8,7 +8,7 @@
 }
 
 .description-container br {
-  margin-bottom: 8px;
+  margin-bottom: 2px;
   display: block;
   content: "";
 }
@@ -19,5 +19,5 @@
 }
 
 .description-container div {
-  margin-bottom: 4px;
+  margin-bottom: 1px;
 } 
